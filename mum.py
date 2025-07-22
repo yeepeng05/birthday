@@ -2,9 +2,11 @@
 import turtle as t
 '''
 from PIL import Image
+'''
 from rembg import remove
+'''
 import streamlit as st
-import qrcode, segno
+import qrcode
 
 '''
 class Draw:
