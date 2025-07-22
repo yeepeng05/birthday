@@ -117,9 +117,9 @@ def main():
     Draw.cake()
     turn_img()
     removebg()
-    '''
-    create_web()
     turn_qr()
+    '''
+    create_web()  
     
 
 def turn_img():
