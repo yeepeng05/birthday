@@ -1,9 +1,12 @@
+'''
 import turtle as t
+'''
 from PIL import Image
 from rembg import remove
 import streamlit as st
 import qrcode, segno
 
+'''
 class Draw:
     def love():
         t.setup(600, 600)
@@ -109,7 +112,7 @@ class Draw:
         # 储存照片
         canvas = t.Screen().getcanvas()
         canvas.postscript(file='cake.eps')
-
+'''
 
 def main():
     '''
