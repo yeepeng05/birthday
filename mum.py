@@ -97,16 +97,17 @@ def create_web():
     left, right = st.columns(2)  # 将页面分成两列     
 
     with left:
-        # 1. 指定本地图片文件夹路径
-        photos = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg']
-        st.markdown('<span style="color: black; font-size: 20px;">点击+解锁更多照片~ </span>', unsafe_allow_html=True)
-        index = st.number_input('', min_value=1, max_value=len(photos), step=1)
-        st.image(photos[index-1], use_container_width=True)
+        st.image("_love.png", width=200)
             
     with right:  
-        st.image("_love.png", width=200)
         st.image('_cake.png', width=200)
 
+    # 1. 指定本地图片文件夹路径
+    photos = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg']
+    st.markdown('<span style="color: black; font-size: 20px;">点击+解锁更多照片~ </span>', unsafe_allow_html=True)
+    index = st.number_input('', min_value=1, max_value=len(photos), step=1)
+    st.image(photos[index-1], use_container_width=True)
+    
 
 def turn_qr():
     qr = segno.make_qr("https://streamlit.io")
