@@ -71,7 +71,7 @@ def create_web():
     <style>
     .chinese_font {
         font-family: 'KaiTi' !important;
-        font-size: 65px !important;
+        font-size: 55px !important;
         color: salmon;
     }
     </style>
@@ -85,7 +85,7 @@ def create_web():
     '''
     <style>
     .chinese_font {
-        font-size: 65px !important;
+        font-size: 55px !important;
         color: salmon;
     }
     </style>
