@@ -71,7 +71,7 @@ def create_web():
     <style>
     .chinese_font {
         font-family: 'KaiTi' !important;
-        font-size: 55px !important;
+        font-size: 45px !important;
         color: salmon;
     }
     </style>
