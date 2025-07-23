@@ -97,10 +97,10 @@ def create_web():
     left, right = st.columns(2)  # 将页面分成两列     
 
     with left:
-        st.image("_love.png", width=200)
+        st.image("_love.png", width=100)
             
     with right:  
-        st.image('_cake.png', width=200)
+        st.image('_cake.png', width=100)
 
     # 1. 指定本地图片文件夹路径
     photos = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg']
