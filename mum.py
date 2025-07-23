@@ -104,9 +104,9 @@ def create_web():
         st.image(photos[index-1], use_container_width=True)
             
     with right:  
-        st.image("_love.png", width=200)
         st.image('_cake.png', width=200)
-    
+        st.image("_love.png", width=200)
+
 
 def turn_qr():
     qr = segno.make_qr("https://streamlit.io")
